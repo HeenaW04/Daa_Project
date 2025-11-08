@@ -41,7 +41,7 @@ This project, Smart Job Scheduler & Profit Optimizer, enhances the traditional g
 
 Algorithms/Technique used:
 
-Algorithm Name: Greedy Job Scheduling Algorithm
+AGreedy Job Scheduling Algorithm
 
 Algorithm Steps:
 1.	Sort all jobs in descending order of profit.
@@ -112,11 +112,12 @@ Job D | Deadline: 1 | Profit: 25
 Job E | Deadline: 3 | Profit: 15
 
 Output:
- 
+ <img width="450" height="162" alt="image" src="https://github.com/user-attachments/assets/b3499ff5-e6d6-4a82-a54f-4ba8639cb17c" />
+
 
 Graph:
 
- 
+<img width="979" height="572" alt="image" src="https://github.com/user-attachments/assets/b5650a57-79b0-40c6-875d-1f6c58839f40" />
 
 
 
