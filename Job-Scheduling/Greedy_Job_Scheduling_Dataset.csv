@@ -1,0 +1,9 @@
+Job ID,Deadline,Profit,Description
+J1,3,80,Cloud resource allocation task
+J2,1,35,Urgent system update
+J3,2,60,Batch data processing
+J4,2,25,Logging and reporting job
+J5,1,20,Routine backup
+J6,3,100,Critical server maintenance
+J7,2,45,Data compression task
+J8,3,30,Notification job
