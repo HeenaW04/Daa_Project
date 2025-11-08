@@ -1,11 +1,17 @@
 # job_scheduler.py
-# Core Greedy Algorithm Implementation
+# -------------------------------------------------------
+# Implements the Greedy Job Scheduling Algorithm
+# -------------------------------------------------------
 
 class Job:
-    def __init__(self, job_id, deadline, profit):
+    def __init__(self, job_id, deadline, profit, description="No description"):
+        """
+        Represents a job with an ID, deadline, profit, and an optional description.
+        """
         self.job_id = job_id
         self.deadline = deadline
         self.profit = profit
+        self.description = description  # ✅ added to match CSV data
 
 def schedule_jobs(jobs):
     """
@@ -20,6 +26,7 @@ def schedule_jobs(jobs):
     total_profit = 0
 
     for job in jobs:
+        # Try to find a free slot for this job (starting from its deadline)
         for j in range(min(n, job.deadline) - 1, -1, -1):
             if result[j] == -1:
                 result[j] = job.job_id
